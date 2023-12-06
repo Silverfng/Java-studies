@@ -37,7 +37,7 @@ public class Program {
 
         for (int i=0; i<n; i++) {
             if (pens[i] != null) {
-                System.out.printf("%d: %s, %s\n", i+1, pens[i].getName(), pens[i].getEmail());
+                System.out.printf("%d: %s\n", i+1, pens[i].toString());
             }
         }
 

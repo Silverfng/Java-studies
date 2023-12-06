@@ -4,7 +4,6 @@ public class Pensionato {
 
     private String email;
     private String name;
-    private int room;
 
 
     public Pensionato(String email, String name) {
@@ -29,11 +28,8 @@ public class Pensionato {
         this.name = name;
     }
 
-    public int getRoom() {
-        return room;
-    }
-
-    public void setRoom(int room) {
-        this.room = room;
+    @Override
+    public String toString() {
+        return name + ", " + email;
     }
 }
